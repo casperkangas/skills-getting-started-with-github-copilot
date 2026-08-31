@@ -146,6 +146,12 @@ section h3 {
   transform: scale(1.05);
 }
 
+.remove-participant:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 2px;
+  background: #bfdbfe;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
