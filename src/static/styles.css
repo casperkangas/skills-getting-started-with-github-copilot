@@ -96,8 +96,11 @@ section h3 {
 }
 
 .participant-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   padding: 4px 0;
-  list-style: disc;
+  list-style: none;
 }
 
 .participant-item.empty {
